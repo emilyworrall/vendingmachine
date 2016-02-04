@@ -20,6 +20,12 @@ describe VendingMachine do
       subject.insert(25)
       expect(subject.display).to eq(25)
     end
+
+    it 'accepts multiple coins and displays total' do
+      subject.insert(5)
+      subject.insert(10)
+      expect(subject.display).to eq(15)
+    end
   end
 
   context 'invalid coins' do
@@ -34,6 +40,12 @@ describe VendingMachine do
     end
   end
 
-
+  context 'coin return' do
+    it 'puts invalid coins into the coin return' do
+      subject.insert(1)
+      subject.insert(1)
+      expect(subject.coin_return).to eq([1, 1])
+    end
+  end
 
 end

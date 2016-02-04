@@ -27,7 +27,6 @@ NOTE: The temptation here will be to create Coin objects that know their value. 
   symbols, or something of that nature.
 
 
-
 Select Product
 --------------
 
