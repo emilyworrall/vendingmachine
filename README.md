@@ -26,6 +26,8 @@ NOTE: The temptation here will be to create Coin objects that know their value. 
   was inserted.  You will need to do something similar.  This can be simulated using strings, constants, enums,
   symbols, or something of that nature.
 
+
+
 Select Product
 --------------
 
