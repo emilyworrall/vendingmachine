@@ -1,6 +1,11 @@
+require 'product'
+
 class VendingMachine
 
   VALID_COINS = [5, 10, 25]
+  PRODUCTS = [Product.new('cola', 100),
+               Product.new('chips', 50),
+               Product.new('candy', 65)]
 
   attr_reader :display, :coin_return, :products
 
@@ -19,4 +24,6 @@ class VendingMachine
       @display
     end
   end
+
+  
 end
