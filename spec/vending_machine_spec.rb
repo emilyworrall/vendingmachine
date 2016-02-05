@@ -48,4 +48,13 @@ describe VendingMachine do
     end
   end
 
+  # context 'choosing a product' do
+  #   it 'can release an item if enough money is paid' do
+  #     subject.insert(25)
+  #     subject.insert(25)
+  #     expect(subject.button('chips')).to eq('chips')
+  #     expect(subject.display).to eq('THANK YOU')
+  #   end
+  # end
+
 end

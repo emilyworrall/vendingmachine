@@ -1,4 +1,5 @@
 require 'product'
+require 'coin'
 
 class VendingMachine
 
@@ -25,5 +26,14 @@ class VendingMachine
     end
   end
 
-  
+  # def button(item)
+  #   if PRODUCTS.find {Product.name == item} && sufficient_money_paid
+  #     return PRODUCTS.find {Product.name == item}
+  #   else
+
+
+
+
+
+
 end
